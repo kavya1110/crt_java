@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+         Scanner k=new Scanner(System.in);
+        int a;
+        a=k.nextInt();
+    int p=1;
+    while(a!=0){
+        int r=a%10;
+        if(r==0){
+            p=p+r;
+            a=a/10;
+        }
+        else{
+            p=p*r;
+            a=a/10;
+        }
+        }
+System.out.printf("%d",p);
+    }
+}
