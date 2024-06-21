@@ -1,0 +1,47 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner k=new Scanner(System.in);
+        int t=k.nextInt();
+        while(t-->0)
+        {
+        int A=k.nextInt();
+        char ch=k.next().charAt(0);
+        int B=k.nextInt();
+        char c=k.next().charAt(0);
+        int C=k.nextInt();
+        switch(ch){
+                case'+':if(A+B==C)
+                {
+                    System.out.println("Yes");
+                }
+                else
+                {
+                    System.out.println(A+B);
+                }
+                break;
+                 case'-':if(A-B==C)
+                 {
+                     System.out.println("Yes");
+                 }
+                else
+                {
+                    System.out.println(A-B);
+                }
+                break;
+                case'*':if(A*B==C)
+                {
+                     System.out.println("Yes");
+                }
+                else
+                {
+                     System.out.println(A*B);
+                }
+                break;
+                }
+        }
+        }
+    }
