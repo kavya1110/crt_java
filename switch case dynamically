@@ -1,0 +1,30 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner k=new Scanner(System.in);
+        char branch=k.next().charAt(0);
+        switch(branch){
+           case 'a':
+            System.out.println("CSE");
+            break;
+             case 'b':
+            System.out.println("IT");
+            break; 
+            case 'c':
+            System.out.println("ECE");
+            break;
+            case 'd':
+            System.out.println("AIML");
+            break;
+             case 'e':
+            System.out.println("CSE");
+            break;
+             case 'f':
+            System.out.println("CSE");
+            break;
+            default :
+            System.out.println("others");
+            break;
+        }
+    }
+}
